@@ -1,0 +1,15 @@
+# 构建产物
+build/
+
+# 诊断日志
+*.log
+!PclCeRegionProbe/**/*.log
+
+# PCL实际测试
+PCLCE/
+
+# 三方库
+third_party/*
+!third_party/minhook/
+third_party/minhook/*
+!third_party/minhook/LICENSE.txt
